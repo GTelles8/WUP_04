@@ -41,7 +41,7 @@ The response variable is WORDSUM and that is numerical. The predictor variable i
 I used chat GPT to get R code for plotting
 
 ```{r}
-ggplot(data, aes(x = DEGREE, y = WORDSUM)) +
+ggplot(data=GSS, aes(x = DEGREE, y = WORDSUM)) +
   geom_boxplot() +
   labs(x = "DEGREE", y = "WORDSUM") +
   ggtitle("Boxplot of Response by Category")
@@ -50,6 +50,11 @@ ggplot(data, aes(x = DEGREE, y = WORDSUM)) +
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+```{r}
+library(dplyr)
+```
+
 
 ## Inferential Results
 
