@@ -47,6 +47,8 @@ ggplot(data=GSS, aes(x = DEGREE, y = WORDSUM)) +
   ggtitle("Boxplot of Response by Category")
 ```
 
+The boxplot shows that Bachelor's degree, Graduate degree and Junior college all have the highest wordsum skills.
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
