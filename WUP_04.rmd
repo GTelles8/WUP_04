@@ -79,9 +79,9 @@ The P value is 0.000236 which is less than 0.05 therefor we reject the null hypo
 plot(TukeyHSD(model1))
 ```
 
-This graph shows that there are significant diffirences between college level and highschool.
+This graph shows that there are significant differences between college level and highschool.
 
 # Discussion and Conclusion
 
-<!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+The graphs results show that there is a significant difference in WORDSUM scores and different levels of degrees. Those with higher than highschool education have higher word scores, at all levels. The p value is less than 0.05, so we reject the null hypothesis.
 
